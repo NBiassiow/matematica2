@@ -3,7 +3,7 @@
 
 :root {
 	--fundo: #1E1E1E;		
-	--verde: #6FFF57;
+	--roxo: #8c00ff;
 	--branco: #FFFFFF;
 	--botao-on: #3A375E;
 	--botao-off: rgba(58, 55, 94, 0.5);
@@ -19,7 +19,7 @@ body {
 
 .ativo {
 	background-color: var(botao-on);	/* definindo cores do botão ativo*/
-	border-bottom: 4px solid var(verde);
+	border-bottom: 4px solid var(--roxo);
 	}		
 
 .conteudo-principal { 
@@ -39,7 +39,7 @@ body {
 }
 
 .titulo-principal span {
-	color: var(--verde);  /* trocando cor do _ */
+	color: var(--roxo);  /* trocando cor do _ */
 }
 
 .botao {
